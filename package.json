@@ -32,13 +32,6 @@
   },
   "scripts": {
     "start": "node ./expres.js",
-    "server": "env-cmd -f ./config/dev.env nodemon ./express/app.js",
-    "prod": "concurrently \"npm run server\" \"npm run db\"",
-    "dev": "concurrently \"npm run server\" \"react-scripts start\" \"npm run db\"",
-    "db": "C:\\Users\\andre/mongodb/bin/mongod.exe --dbpath=C:\\Users\\andre/mongodb-data",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
