@@ -31,7 +31,7 @@
     "sharp": "^0.25.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node ./expres.js",
     "server": "env-cmd -f ./config/dev.env nodemon ./express/app.js",
     "prod": "concurrently \"npm run server\" \"npm run db\"",
     "dev": "concurrently \"npm run server\" \"react-scripts start\" \"npm run db\"",
