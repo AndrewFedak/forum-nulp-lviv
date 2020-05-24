@@ -1,0 +1,81 @@
+.list-logo{
+    padding: 10px 15px;
+    background: #154a89;
+    color: white;
+}
+.list-item {
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+p, h1{margin-bottom: 0;}
+
+a{text-decoration: none}
+
+.list-item h1, .list-item p{
+    color: #154a89;
+    font-family: "Panto ", Arial, Helvetica, sans-serif;
+}
+
+.content h1, .content-info h1, .list-logo h1{
+    font-weight: bold;
+}
+
+.content{
+    display: flex;
+}
+
+.content p{
+    font-weight: 600;
+}
+
+.name_and_description h1{
+    cursor: pointer;
+}
+
+.under_topic{
+    cursor: pointer;
+    display: block;
+    margin-top: 5px;
+}
+
+.list-logo h1{
+    margin: auto 0;
+}
+
+.list-logo h1{
+    font-size: 28px;
+}
+
+.list-item{
+    padding: 20px 20px 1px 20px;
+}
+
+.list-item .content .chat-img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+.list-item .content .name_and_description img{
+    width: 22px;
+    height: 15px;
+}
+
+.content h1{
+    font-size: 18px;
+}
+
+
+.content p{
+    font-size: 13px;
+}
+
+.content-info h1{
+    font-size: 18px;
+}
