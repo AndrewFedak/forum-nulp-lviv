@@ -5,9 +5,12 @@
 /.pnp
 .pnp.js
 config
-.idea
+
 # testing
 /coverage
+.idea
+# production
+/build
 
 # misc
 .DS_Store

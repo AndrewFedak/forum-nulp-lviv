@@ -1,0 +1,102 @@
+.create-article-main{
+    padding: 30px;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+p{
+    color: white;
+    padding: 0;
+}
+.article-creation-header{
+    background-color: #154a89;
+}
+
+
+.article-creation-header p{
+    background-color: #154a89;
+    padding: 2px 0 5px 5px;
+    font-size: 18px;
+}
+
+
+.article-creation-body{
+    background-color: white;
+    min-height: 300px;
+    padding: 100px 80px;
+}
+
+.article-name-input input{
+    width: 100%;
+    margin: 0 0 15px 0;
+    background-color: #154a89;
+    padding: 3px 5px 5px 5px;
+    font-weight: bold;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.line-above{
+    padding: 4px 5px 5px 5px;
+    width: 100%;
+    background-color: #154a89;
+    margin-top: 10px;
+}
+.create-article-button{
+    float: right;
+    background-color: #154a89;
+    color: white;
+    padding: 8px 8px 10px 8px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+.create-article-button span{
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 0 3px 4px 3px;
+    font-weight: bold;
+}
+.article-content-textarea textarea, .details-of-article textarea{
+    width: 100%;
+    min-height: 200px;
+    color: #154a89;
+    font-weight: bold;
+    border-color: #154a89;
+}
+.details-of-article textarea{
+    min-height: 50px;
+}
+.article-content-textarea textarea:focus, .details-of-article textarea:focus{
+    border: 2px solid;
+    outline: none;
+}
+
+
+@media (max-width: 1100px) {
+    .create-article-main{
+        padding: 30px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .article-creation-body{
+        background-color: white;
+        min-height: 300px;
+        padding: 80px 50px;
+    }
+}
+
+@media (max-width: 730px) {
+    .create-article-main{
+        padding: 30px 10px;
+        max-width: 100%;
+    }
+
+    .article-creation-body{
+        background-color: white;
+        min-height: 300px;
+        padding: 80px 30px;
+    }
+}

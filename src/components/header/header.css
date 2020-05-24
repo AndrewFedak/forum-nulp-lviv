@@ -1,0 +1,26 @@
+.background-cover-nulp {
+    display: flex;
+    justify-content: center;
+    background: url("img/header_nulp.jpg") no-repeat center top;
+    max-width: 100%;
+    width: 100%;
+    height: 230px;
+}
+
+.img-fluid {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.logo-text{
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 690px){
+    .logo-text{
+        margin-right: 0px;
+        margin-top: 50px;
+    }
+}
